@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.update-btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 100%;
+  background-image: url(../public/icons8-update-48.png);
+  cursor: pointer;
+}
+
+.messages-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  width: 700px;
+  min-height: 200px;
+  margin-top: 15px;
+}
+
+.message-wrapper {
+  position: relative;
+  width: 200px;
+  min-height: 30px;
+  border: 1px solid white;
+  padding: 5px;
+  color: white;
+  margin: 10px;
+}
+
+.message-content {
+  white-space: pre-wrap;
+}
+
+.delete-btn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  background-image: url(../public/close.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15px;
+}
+
+.input-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  width: 400px;
+}
+
+.input {
+  height: 150px;
+  margin-top: 10px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 70px;
+  resize: none;
+}
+
+.send-btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 100%;
+  background-image: url(../public/icons8-arrow-64.png);
+  background-size: contain;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
