@@ -61,7 +61,7 @@ export const App = () => {
   }
 
 
-  useEffect(loadData, []);
+  // useEffect(loadData, []);
 
   useEffect(() => {
     loadData()
